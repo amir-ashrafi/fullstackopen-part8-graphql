@@ -29,24 +29,26 @@ This repository contains the exercises and project implementation for **Part 8 (
 cd backend
 npm install
 Create a .env file inside the backend/ folder:
+```
 
-ini
-Copy code
+### Create file .env
+```
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/library?retryWrites=true&w=majority
 JWT_SECRET=your_jwt_secret_key
-Start the server:
+```
+### Start the server:
+```
 npm run dev
-The GraphQL playground will be available at:
-
-bash
-Copy code
+```
+### The GraphQL playground will be available at:
 http://localhost:4000/graphql
-Frontend Setup
-bash
+### Frontend Setup
+```
 Copy code
 cd frontend
 npm install
 npm run dev
+```
 The frontend app will be available at:
 
 arduino
